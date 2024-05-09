@@ -1,0 +1,4 @@
+{
+    "presets": [ "es2015-rollup", "react", "@babel/preset-react" ],
+    "plugins": [ "external-helpers", "babel-plugin-transform-decorators-legacy" ] 
+}
