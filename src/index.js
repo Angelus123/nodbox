@@ -1,8 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {FormComponent} from './component'
-const Index = () => {
-  return <div>Hello React!</div>;
-};
+import App from './App'
 
-ReactDOM.render(<FormComponent />, document.getElementById("index"));
+ReactDOM.render(<App />, document.body);
